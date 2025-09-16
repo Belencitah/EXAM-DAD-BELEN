@@ -1,13 +1,13 @@
-package com.example.ms_cursos;
+package pe.edu.upeu.mscursoservice;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
 
 @SpringBootTest
-class MsCursosApplicationTests {
+class MsCursoServiceApplicationTests {
 
-	@Test
-	void contextLoads() {
-	}
+    @Test
+    void contextLoads() {
+    }
 
 }
