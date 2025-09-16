@@ -21,14 +21,11 @@ spring:
               enabled: true
               lower-case-service-id: true
           routes:
-            - id: ms-cursos
-              uri: lb://ms-cursos
+            - id: ms-curso-service
+              uri: lb://ms-curso-service
               predicates:
-                - Path=/cursos/**
-              # Si tu servicio real no expone /categoria/...:
-              # filters:
-              #   - StripPrefix=1
-            - id: ms-matricula
-              uri: lb://ms-matricula
+                - Path=/curso/**
+            - id: ms-matricula-service
+              uri: lb://ms-matricula-service
               predicates:
                 - Path=/matricula/**

@@ -1,9 +1,0 @@
-spring:
-application:
-name: ms-matricula
-profiles:
-active: development
-config:
-import: optional:configserver:http://root:123456@localhost:7071
-server:
-port: 8082
