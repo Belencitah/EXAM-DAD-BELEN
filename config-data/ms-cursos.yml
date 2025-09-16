@@ -3,7 +3,7 @@ spring:
     name: ms-cursos
 
   datasource:
-    url: jdbc:mysql://localhost:3306/ms_catalogo
+    url: jdbc:mysql://localhost:3306/ms_cursos
     username: root
     password:
     driver-class-name: com.mysql.cj.jdbc.Driver
